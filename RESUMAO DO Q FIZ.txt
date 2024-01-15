@@ -1,0 +1,65 @@
+para fazer a estruturação da pasta: 
+criei uma pasta com a ajuda da tela welcome (... > help > welcome)
+criei mais 3 arquivos dentro dessa pasta, um de cada extensão: .html; .css; .js
+
+para linkar o html com o arquivo css eu escrevi link e dei enter, e na frente de href coloquei o nome do arquivo css, com a extensão
+
+
+CURIOSIDADE PIKA:
+Um atributo de ID (usado no <p>) pode ser empregado para estilizar um elemento, 
+enquanto o atributo de CLASSE (usado no <li>) é usado para estilizar todos os elementos da mesma classe.
+
+o que é CSS:
+A ideia básica é direcionar ao código HTML, depois definir qual o estilo deve ser. Por exemplo, você pode marcar uma caixa e 
+aplicar à ela cantos arredondados ou uma tela de fundo gradiente.
+
+O CSS é responsável por determinar a aparência dos hiperlinks e como eles respondem ao interagir com eles – embora você defina 
+o endereço de destino em HTML.
+
+Como mencionamos anteriormente, você também pode escrever CSS diretamente em HTML, o que é chamado de CSS interno.
+No meu caso estou usando o css externo, com um arquivo css separado do html
+
+body {
+
+font-family: monospace;                            O nome da propriedade é font-family e o valor é helvetica. 
+				 	  	   A propriedade e o valor juntos formam um par chave-valor.
+}
+
+ul {
+
+font-family: helvética;
+
+} 
+
+
+
+Os atributos personalizados são chamados de .list (classe) e #msg (id).
+
+A lista do seletor de classe tem um prefixo de período(.),
+
+enquanto o seletor de ID é msg e tem um prefixo de sinal de libra(#).
+
+Os nomes são arbitrários, desde que eles correspondam ao que você definiu no HTML.
+
+li {
+
+list-style: circle;
+
+}
+
+.list {
+
+list-style: square;
+
+}
+
+#msg {
+
+font-family: monospace;
+
+}
+
+AQUI ESTÁ A LINHA EM HTML DAS PARTES ALTERADAS POR CSS COM A ESPECIFICAÇÃO DA CLASSE E ID:
+<p id="msg">Tarefas Atuais</p>
+
+<li class="list">Adicionar estilos visuais </li>

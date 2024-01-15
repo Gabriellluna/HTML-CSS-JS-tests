@@ -1,0 +1,64 @@
+body {
+
+ 
+  --top-color: orange;
+  --bottom-color: yellow;
+  --my-gradient: linear-gradient(
+    var(--top-color)
+    var(--bottom-color)
+  ); 
+  }
+  
+  
+  ul {
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  li {
+
+      list-style: square;
+      
+      }
+  
+ 
+      
+    #list{
+      list-style:georgian;
+      font-size:large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+      :root{
+          --green: #008000;  
+          --white: #ffffff;
+          --black: #000000;
+      }
+
+ .light-theme {
+
+    --bg: var(--green);
+    --fontColor: var(--blsck);
+ 
+    }
+
+
+  .dark-theme {
+
+     --bg: var(--black);
+     --fontColor: var(--green);
+  
+     }
+
+     *{
+      color: var(--fontColor);
+      font-family: helvetica;
+      background: var(--bg);
+  }
+
+  .butao{
+    padding: 10px 50px;
+    color: greenyellow;
+    border: 2px #ffffff;
+  }
+ 
