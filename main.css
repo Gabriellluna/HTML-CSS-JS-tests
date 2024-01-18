@@ -37,6 +37,8 @@ body {
           --purple: #b13596;  
           --yellow: #f3f03c;
           --white: #ffffff;
+          --roxinho:rgb(173, 105, 173);
+          --amarelinho: yellow; 
       }
 
  .light-theme {
@@ -45,6 +47,8 @@ body {
     --fontColor: var(--purple);
     --btnBg: var(--purple);
     --btnFontColor:var(--white); 
+    --butaoFontColor: var(--amarelinho);
+    --butaoBgColor: var(--purple);
     }
 
 
@@ -54,6 +58,8 @@ body {
      --fontColor: var(--yellow);
      --btnBg: var(--white);
      --btnFontColor:var(--purple);
+     --butaoFontColor: var(--roxinho);
+     --butaoBgColor: var(--amarelinho);
      }
 
      *{
@@ -70,7 +76,11 @@ body {
     cursor:pointer;
   }
   .butao{
-    /**text-shadow: 1px 2px 1px rgb(0, 0, 0);**/
+   color: var(--butaoFontColor);
+   background-color: var(--butaoBgColor);
+  }
+
+  .butao{
     box-shadow: 3px 3px 0px 3px rgb(173, 105, 173);
     display: block;
     text-align: center;
@@ -78,14 +88,14 @@ body {
     margin: 10px;
     font-size: 20px;
     font-weight: bold;
-    color:rgb(173, 105, 173);
-    background-color: yellow;  
+     
     border: 0;
     border-radius: 0.5em;
     user-select: none;
     
 
   }
+
   .butao:hover{
     background-color:purple;
     transition: 0s;
