@@ -7,6 +7,13 @@ body {
     --black: #000000;
   ); 
   }
+  #screen {
+    display: flex;
+    align-items: center;
+    height: 95vh;
+    flex-direction: column;
+
+  }
    
   #msg{
     font-size:x-large;
@@ -113,9 +120,9 @@ body {
   }
 
   .btn{
-    position: absolute;
-    top: 20px;
-    left: 250px;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
