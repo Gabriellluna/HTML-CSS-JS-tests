@@ -1,0 +1,129 @@
+body {
+  --top-color: orange;
+  --bottom-color: yellow;
+  --my-gradient: linear-gradient(
+    var(--top-color)
+    var(--bottom-color)
+    --black: #000000;
+  ); 
+  }
+   
+  #msg{
+    font-size:x-large;
+  }
+  
+  ul {
+  
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:large;
+  
+  }
+  li {
+
+      list-style: square;
+      
+      }
+  
+ 
+      
+    /**#list{
+      list-style:georgian;
+      font-size:large;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    **/
+
+      :root{
+          --purple: #b13596;  
+          --yellow: #f3f03c;
+          --white: #ffffff;
+          --roxinho:rgb(173, 105, 173);
+          --amarelinho: yellow; 
+      }
+
+ .light-theme {
+
+    --bg: var(--yellow);
+    --fontColor: var(--purple);
+    --btnBg: var(--purple);
+    --btnFontColor:var(--white); 
+    --butaoFontColor: var(--amarelinho);
+    --butaoBgColor: var(--purple);
+    }
+
+
+  .dark-theme {
+
+     --bg: var(--purple);
+     --fontColor: var(--yellow);
+     --btnBg: var(--white);
+     --btnFontColor:var(--purple);
+     --butaoFontColor: var(--roxinho);
+     --butaoBgColor: var(--amarelinho);
+     }
+
+     *{
+      color: var(--fontColor);
+      font-family: helvetica;
+  }
+
+  body{
+    background: var(--bg);
+  }
+  
+  button{
+    font-family: sans-serif;
+    cursor:pointer;
+  }
+  .butao{
+   color: var(--butaoFontColor);
+   background-color: var(--butaoBgColor);
+  }
+
+  .butao{
+    box-shadow: 3px 3px 0px 3px rgb(173, 105, 173);
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+     
+    border: 0;
+    border-radius: 0.5em;
+    user-select: none;
+    
+
+  }
+
+  .butao:hover{
+    background-color:purple;
+    transition: 0s;
+  }
+ 
+  .butao:active{
+    box-shadow: 0px 0px 0px 0px rgb(173, 105, 173), inset  3px 3px 0px 3px rgb(173, 105, 173);
+    transform: translate(3px, 3px);
+    color:rgb(173, 105, 173);
+  }
+
+  .btn{
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .btn{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color:var(--btnFontColor);
+    background-color: var(--btnBg);
+  }
+
+  .btn:focus {
+    outline-style: none;
+  }
